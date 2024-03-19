@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu Bar Styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Body Styles */
+body {
+    width: 95%;
+    margin: 15px auto;
+}
+
+/* Article Styles */
+article {
+    width: 75%;
+}
+
+article img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Aside Styles */
+aside {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow: auto;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+aside ul {
+    list-style-type: upper-roman;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside ul li a:hover {
+    color: #666;
+}
+
+aside a[href="#"] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #666;
+}
