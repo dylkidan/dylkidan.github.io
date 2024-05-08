@@ -1,66 +1,86 @@
-html {
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+html{
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
-body {
-    font-family:Arial, Helvetica, sans-serif;
+body{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 1000px;
-    background-color: white;
-    margin: 15px auto;
-    padding: 15px 1.5em;
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
+	width: 90%;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 1.5em;
+	border: 1px solid black;
+	border-radius: 1em;
+	box-shadow: 5px 5px 0 0;
 }
-a:focus, a:hover {
+a:focus, a:hover{
     font-style: italic;
-    color: orangered;
+    color:greenyellow;
+    border: 3px blue;
+    border-style: dotted solid;
 }
-header h1 {
+header{
+    padding-bottom: 2em;
+    border-bottom: 2px solid maroon;
+}
+header h1{
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
 }
-header h2 {
-    font-size: 130%;
+header h2{
+    font-size: 150%;
     color: #800000;
     text-indent: 30px;
 }
-header img {
-    float: left;
+header img{
+    float:left
 }
-.shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+.shadow{
+    text-shadow: 2px 2px 2px rgb(128,0,0);
 }
-main {
+article{
     clear: left;
+    width: 70%;
+    float:left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
 }
-main h3 {
-    margin: 3em 2em 1.5em;
-    border: 5px double blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-    font-size: 105%;
+article h3{
+    column-span: all;
 }
-main nav {
-    margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px pink;
-    padding: 1em;
+article image{
+    float:left;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
-#list {
-    line-height: 1.5em;
+article p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
 }
-div.contact {
-    margin: 1.5em 2em 0 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px green;
-    padding: 1em;
+aside{
+    width: 20%;
+    float:right;
+    background-color: #ffebc6;
+    padding: 20px;
 }
-footer p.copyright {
+footer{
+    clear: both;
+    border-top: 2px solid maroon;
+}
+footer p.copyright{
     text-align: center;
-    font-size: 80%;
+    font-size: 80%;   
+}
+p.fixed{
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    padding: 20px;
 }
